@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Urbanist Black';
+    src: url('fonts/Urbanist-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+    overflow: hidden;
+    background-color: #1B1B1B;
+    font-family: 'Urbanist Black', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 0.2;
+}
+
+.aboutme p {
+    margin-top: 0;
+}
+
+.description {
+    font-size: 64px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.round-image {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.additional-info {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #152842;
+    border-radius: 10px;
+    padding: 20px;
+    width: 302px;
+}
+
+.additional-info p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 0;
+}
+
+.divzbuttonem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    margin-top: 56px;
+}
+
+.footer {
+    background-color: #152842;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
